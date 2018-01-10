@@ -1,2 +1,2 @@
 # LaVouteDAcier
-Site vitrine, forgeron. ITCSS 
+A simple website, with gallery, dynamic project and itcss 
