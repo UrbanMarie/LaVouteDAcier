@@ -20,7 +20,7 @@
     </div>
 
 
-    <div class="row pad-bottom-medium marg-top-medium ">
+    <div class="row pad-bottom-medium marg-top-medium  ">
         <section class="relative home-two">
             <div class="col-md-6 z3">
                 <div class="marg-top-big white-text text-home pad-medium">
@@ -43,7 +43,7 @@
     <div class="row">
         <div class="col-xs-1 col-md-3">
         </div>
-        <div class="col-xs-10 col-md-3 pad-top-medium text-center">
+        <div class="col-xs-10 col-md-3 pad-top-medium pad-medium text-center">
             <img src="../chris.png" alt="Photographie Christophe Benet" class="id-img">
             <h3 class="small-caps tiny-title text-center text-bold"> Benet Christophe</h3>
             <h4 class="small-caps">Communication</h4>
@@ -51,7 +51,7 @@
                 Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam</p>
         </div>
-        <div class="col-xs-10 col-md-3 pad-top-medium text-center">
+        <div class="col-xs-10 col-md-3 pad-top-medium pad-medium text-center">
             <img src="../max.png" alt="Photographie Maxime Urbano" class="id-img">
             <h3 class=" small-caps tiny-title text-center">Urbano Maxime</h3>
             <h4 class="small-caps">Conception</h4>

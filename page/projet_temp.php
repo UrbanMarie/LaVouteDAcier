@@ -4,21 +4,6 @@
     <div class="row marg-top-medium">
         <div class="col-md-12">
             <div class="row">
-                <div class="col-md-7">
-                    <div class="row">
-                        <div class="col-md-offset-1 col-md-11">
-                            <img src="../aume.jpg" alt="header soudure">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-offset-1 col-md-11 marg-top-little">
-                            <p> Cependant, malgré sa facilité d'utilisation, bon nombre de personnes utilisent Bootstrap sans en connaître véritablement les bases de son fonctionnement, pensant qu'il suffit de mettre des classes à des div pour que ça marche.
-                                Cet article va vous permettre de revoir les bases de la grille Bootstrap mais également ses Bonnes Pratiques. Cela permettra également aux non-adhérents de Bootstrap de comprendre comment (et pourquoi) marche la grille en matière de responsive, pour appliquer son fonctionnement sur leur site sans avoir à y installer le framework (et l'alourdir avec tout son attirail).
-                                Nb: la version de Bootstrap sur laquelle nous nous baserons est la version 3
-                                Avant de commencer, les prérequis nécessaires pour cette article sont de </p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-md-5">
                     <div class="row">
                         <div class="col-md-offset-1 col-md-10 col-md-offset-1 ">
@@ -27,22 +12,55 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2">
-                          <p>
-                              Réalisation<br/>
-                              du 02/02/12<br/>
-                             , au 01/02/13
-                          </p>
+                        <div class="col-md-12 align-content-md-center">
+                            <p class="marg-left-medium">dskjgmsldgmsfdjkgmldsfjgmlgjkmfdsjkgmfdg fkgjmfldgkjmsdflkgjmsdfhkglkshfdgmsjdhf
+                                fdkgjshmldfhkgmsdfhjglskfdjhgfhjglorem fkgjmfldgkjmsdflkgjmsdfhkglkshfdgmsjdhf fdkgjshmldfhkgmsdfhjglskfdjhgfhjglorem
+                                dskjgmsldgmsfdjkgmldsfjgmlgjkmfdsjkgmfdg fkgjmfldgkjmsdflkgjmsdfhkglkshfdgmsjdhf fdkgjshmldfhkgmsdfhjglskfdjhgfhjglorem
+                                fkgjmfldgkjmsdflkgjmsdfhkglkshfdgmsjdhf fdkgjshmldfhkgmsdfhjglskfdjhgfhjglorem</p>
                         </div>
-                        <div class="col-md-10"></div>
                     </div>
+
+
+                </div>
+
+                <div class="col-md-7 full group">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                        </ol>
+                                        <div class="carousel-inner img-carroussel">
+                                            <div class="item active">
+                                                <img src="../img/fleuriste/01.jpg" alt="First slide">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../img/fleuriste/02.jpg" alt="Second slide">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../img/fleuriste/03.jpg" alt="Third slide">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../img/fleuriste/04.jpg" alt="Four slide">
+                                            </div>
+                                        </div>
+                                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-offset-1 col-md-10 col-md-offset-1">
-            <h2> ICI GALLERIE  ICI GALLERIE  ICI GALLERIE  ICI GALLERIE  ICI GALLERIE  ICI GALLERIE </h2>
+
         </div>
     </div>
 
