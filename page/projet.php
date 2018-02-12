@@ -1,5 +1,5 @@
 <?php include 'header.html';?>
-<?php include 'nav.html';?>
+<?php include 'nav.php';?>
     <div class="container-fluid">
             <div class="row">
                 <div class="col-md-1"></div>
