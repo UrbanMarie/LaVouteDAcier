@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>LaVouteD'Acier</title>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="description" content="Nous contacter, par mail, ou nous rejoindre.">
+            <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+                 <!-- CDN BOOTSTRAP -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="../style.css">
+            <link href="../lightbox/css/lightbox.css" rel="stylesheet">
+        </head>
+        <body>
+
+            <div class='container-fluid parallax'>
+              <div class="navbar-sticky">
+                  <nav class="navbar navbar-inverse navbar-static-top">
+                    <div class="container-fluid">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="home.html">Acceuil</a></li>
+                        <li><a href="gallery.html">Gallerie</a></li>
+                        <li><a href="projet.html">Nos Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <section class="marg-medium">
+            <div class="row back-white">
+                <div class=" col-md-6  pad-fat text-center " >
+                    <h2> UNE QUESTION ?</h2>
+                    <p> Envoyez nous vos demandes, nous vous établieront un devis.
+                    </p>
+                    <div class="form text-center">
+                        <script></script>
+                        <form name="formulaire" id="Form" method="post" enctype="text/plain" action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control rounded form-contact" id="name" name="Nom" placeholder="Nom" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control rounded form-contact" id="email" name="Email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control rounded form-contact" id="subject" name="Sujet" placeholder="Sujet" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control rounded form-contact" id="message" name="Message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                            </div>
+                            <input type="reset" class="btn pull-right marg-top-little marg-little" value="Effacer">
+                            <input type="submit" name="submit" onclick="get_subject()" class="btn pull-right marg-top-little" value="Envoyer">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 pad-fat text-center ">
+                    <h2> NOUS REJOINDRE</h2>
+                    <p> A l'embranchement prendre a droite. Suivre le chemin, jusqu'au portail de l'entrée du domaine.</p>
+                    <iframe  class="pad-top-medium" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d639.2429313186892!2d3.4684288367676332!3d43.472452255746944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDI4JzIwLjYiTiAzwrAyOCcwNC42IkU!5e1!3m2!1sfr!2sfr!4v1517420336323"  style="border:0" allowfullscreen></iframe>
+                    <div>
+                        <div class="row text-center">
+                            <div class="col-md-6" >
+                                <div>
+                                    <span class="title-foot small-caps">Adresse</span><br/>
+                                    <span>Mas Chabert </span><br/> <span>34500 AUMES</span><br/>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <span class="title-foot small-caps">Contact</span><br/>
+                                <span class="small-caps let-space-little ">Christope Benet  06.30.33.28.62</span><br/>
+                                <span  class="small-caps let-space-little ">Maxime Urbano  06.30.33.28.62</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row foot white-text marg-top-big black">
+        <div class="col-sm-4 col-md-3 pad-left-medium">
+            <span class="title-foot small-caps marg-left-tiny">Mentions Légales</span><br/>
+            <div class="col-md-6 text-left">
+                <span class="subtitle-foot small-caps ">Siret</span><br/><span>056201541154145</span><br/>
+            </div>
+            <div class="col-md-6 text-left">
+                <span class="subtitle-foot small-caps">Matricule</span><br/><span>056201541154145</span><br/>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <div class="row">
+                <div class="col-md-6 text-center" >
+                    <div id="adressF">
+                        <span class="title-foot small-caps">Adresse</span><br/>
+                        <span>Mas Chabert </span><br/> <span>34500 AUMES</span><br/>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center" id="contactF">
+                    <span class="title-foot small-caps">Contact</span><br/>
+                    <span class="small-caps let-space-little ">Christope Benet  06.30.33.28.62</span><br/>
+                    <span  class="small-caps let-space-little ">Maxime Urbano  06.30.33.28.62</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 text-center marg-top-little">
+            <img src="../logo.png" alt="Logo la voute d'acier" id="logo"/>
+        </div>
+        <div class="  col-sm-4 col-md-3 icon text-center">
+            <a href="https://www.facebook.com/lavoutedacier/" target=_blank> <img src="../img/logo/logo_facebook.png" alt="Lien vers facebook" class="hov-transp"/></a>
+            <a href="https://www.instagram.com/la.voute.d.acier/" target="_blank">   <img src="../img/logo/logo_instagram.png" alt="Lien vers instagram" class="hov-transp"/></a>
+           <a href="contact.html"> <img src="../img/logo/logo_mail.png" alt="Lien vers page contact" class="hov-transp"/></a>
+            <div class="row">
+                <div class="col-md-12 text-center text-white ">
+                    <span>© Tout droits réservé, La Voute D'Acier</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
